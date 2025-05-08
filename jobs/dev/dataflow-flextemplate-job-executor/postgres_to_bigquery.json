@@ -11,9 +11,9 @@
     "driverJars": "gs://pso-hackathon_aef_artifacts_bucket/jdbcjars/postgresql-42.7.3.jar",
     "driverClassName": "org.postgresql.Driver",
     "connectionURL": "jdbc:postgresql://10.60.0.3:5432/postgres",
-    "outputTable": "pso-hackathon:aef_landing_sample_dataset.raw_suppliers",
-    "query": "SELECT * FROM public.suppliers",
-    "bigQueryLoadingTemporaryDirectory": "gs://pso-hackathon-temp/jdbc_temp/suppliers/",
+    "outputTable": "pso-hackathon:aef_landing_sample_dataset.raw_transactions",
+    "query": "SELECT * FROM public.raw_transactions",
+    "bigQueryLoadingTemporaryDirectory": "gs://pso-hackathon-temp/jdbc_temp/raw_transactions/",
     "username": "user1",
     "password": "changeme",
     "createDisposition": "CREATE_NEVER"
